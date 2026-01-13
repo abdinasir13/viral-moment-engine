@@ -1,30 +1,53 @@
-# 🎬 Viral Moment Engine
+# 🎬 YouTube Shorts Autopilot Factory
 
-AI-powered content discovery and script generation for creating viral YouTube Shorts from movie and TV moments.
+An autonomous 8-stage production pipeline for generating YouTube Shorts content packages.
 
 ## Features
 
-- 📊 Discover trending movies & TV shows from TMDB
-- ⚡ Intelligent viral moment identification
-- 📝 Automated fair-use commentary script generation
-- 💾 Persistent storage for your work
-- 🎨 Beautiful, modern UI
+✨ **Autonomous Pipeline**
+- Stage 1: Concept Generation (5 viral topic candidates)
+- Stage 2: Script Generation (hook + content + CTA)
+- Stage 3: Voiceover Timing (timestamped segments)
+- Stage 4: Visual Assembly (B-roll map)
+- Stage 5: Sound & SFX (music recommendations)
+- Stage 6: Subtitles (with emphasis markers)
+- Stage 7: Export Specs (9:16, 1080x1920, 59s)
+- Stage 8: Upload Metadata (title, tags, description)
 
-## Live Demo
+🎯 **5 Content Niches**
+- Movie Analysis
+- Life Hacks
+- History Facts
+- Psychology
+- Tech Tips
 
-[Your Vercel URL will go here]
+📊 **Analytics Dashboard**
+- Total videos generated
+- Average trend scores
+- CTR potential tracking
+- Niche distribution
 
-## Tech Stack
+💾 **Export Options**
+- Production scripts (.txt) with complete pipeline details
+- JSON format for automation tools
+- Machine-readable output
 
-- React 18
-- Tailwind CSS
-- TMDB API
-- LocalStorage for persistence
+## Installation
 
-## Development
+1. **Clone the repository**
+```bash
+git clone https://github.com/YOUR-USERNAME/youtube-shorts-autopilot.git
+cd youtube-shorts-autopilot
+```
 
-Simply open `index.html` in your browser. No build process required!
+2. **Install dependencies**
+```bash
+npm install
+```
 
-## License
+3. **Start the development server**
+```bash
+npm start
+```
 
-MIT
+4. **Open in browser**
